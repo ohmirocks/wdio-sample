@@ -1,0 +1,38 @@
+{
+  "name": "wdio-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohmirocks/wdio-sample.git"
+  },
+  "author": "okannusami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohmirocks/wdio-sample/issues"
+  },
+  "homepage": "https://github.com/ohmirocks/wdio-sample#readme",
+  "dependencies": {
+    "mocha": "^3.5.3",
+    "chai": "^3.5.0",
+    "del": "^2.2.2",
+    "eslint": "^3.19.0",
+    "eslint-config-ebay": "0.0.7",
+    "git-pre-push": "0.0.5",
+    "jsonlint": "^1.6.2",
+    "jsonlint-cli": "^1.0.1",
+    "wdio-firefox-profile-service": "^0.0.3",
+    "wdio-junit-reporter": "^0.3.0",
+    "wdio-mocha-framework": "^0.5.10",
+    "wdio-selenium-standalone-service": "0.0.8",
+    "wdio-spec-reporter": "^0.1.0",
+    "webdriverio": "^4.7.1"
+  },
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.5.11"
+  }
+}
